@@ -1,6 +1,6 @@
 # HostVdsSetup
 ____
-ssh root@0.0.0.0(адрес сервера) - подключение к серверу
+ssh root@XX.XX.XX.XXX(адрес сервера) - подключение к серверу
 
 sudo apt install wget curl -y
 
@@ -15,12 +15,20 @@ sudo systemctl restart code-server@$USER
 # ssh config
 ____
 ```
-Host 0.0.0.0(адрес сервера)
-  HostName 0.0.0.0
+Host XX.XX.XX.XXX(адрес сервера)
+  HostName XX.XX.XX.XXX
 
-Host 0.0.0.0
-HostName 0.0.0.0
-User user1
+Host XX.XX.XX.XXX
+HostName XX.XX.XX.XXX
+User newuser
 IdentityFile ~/.ssh/id_rsa
 PreferredAuthentications publickey,password
+```
+# code-server config.yaml
+____
+```
+bind-addr: 0.0.0.0:8080
+auth: password
+password: "пароль"
+cert: false
 ```
