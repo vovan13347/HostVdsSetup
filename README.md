@@ -12,6 +12,8 @@ nano ~/.config/code-server/config.yaml
 
 sudo systemctl restart code-server@$USER
 
+adduser username - добавление пользователя
+
 # ssh config
 ____
 ```
