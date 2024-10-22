@@ -1,6 +1,6 @@
 # HostVdsSetup
 ____
-ssh root@XX.XX.XX.XXX(адрес сервера) - подключение к серверу
+ssh `root@XX.XX.XX.XXX`(адрес сервера) - подключение к серверу
 
 sudo apt install wget curl -y
 
