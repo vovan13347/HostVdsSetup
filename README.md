@@ -1,6 +1,6 @@
 # HostVdsSetup
-
-ssh root@0.0.0.0 - подключение к серверу
+____
+ssh root@0.0.0.0(адрес сервера) - подключение к серверу
 
 sudo apt install wget curl -y
 
@@ -13,12 +13,13 @@ nano ~/.config/code-server/config.yaml
 sudo systemctl restart code-server@$USER
 
 # ssh config
+____
 ```
-Host 31.15.17.243
-  HostName 31.15.17.243
+Host 0.0.0.0(адрес сервера)
+  HostName 0.0.0.0
 
-Host 31.15.17.243
-HostName 31.15.17.243
+Host 0.0.0.0
+HostName 0.0.0.0
 User user1
 IdentityFile ~/.ssh/id_rsa
 PreferredAuthentications publickey,password
