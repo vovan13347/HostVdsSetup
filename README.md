@@ -15,6 +15,7 @@ sudo systemctl restart code-server@$USER
 adduser username - добавление пользователя
 
 sudo iptables -A INPUT -p tcp --dport 5000 -j ACCEPT
+
 sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 
 curl localhost:5000
