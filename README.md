@@ -20,6 +20,7 @@ sudo sh -c "iptables-save > /etc/iptables/rules.v4"
 curl localhost:5000
 
 sudo iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
+
 sudo iptables -I INPUT -p udp --dport 5000 -j ACCEPT
 
 
