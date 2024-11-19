@@ -24,14 +24,14 @@ sudo iptables -I INPUT -p tcp --dport 5000 -j ACCEPT
 
 sudo iptables -I INPUT -p udp --dport 5000 -j ACCEPT
 
-
 sudo ufw status
+
 sudo iptables -L
+
 sudo systemctl status firewalld
 
-
-
 sudo netstat -tuln
+
 flask run --host=0.0.0.0 --port=5000
 
 export FLASK_RUN_HOST=0.0.0.0
