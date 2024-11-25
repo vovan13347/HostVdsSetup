@@ -56,3 +56,20 @@ auth: password
 password: "пароль"
 cert: false
 ```
+# PostgreSQL
+____
+sudo -u postgres psql
+
+CREATE USER 'username' WITH PASSWORD 'password';
+
+ALTER USER 'username' WITH SUPERUSER;
+
+sudo nano /etc/postgresql/версия/main/pg_hba.conf
+
+sudo systemctl restart postgresql
+
+CREATE DATABASE username;
+
+GRANT ALL PRIVILEGES ON DATABASE username TO username;
+
+psql -U username -d database_name -f path/to/file.sql
