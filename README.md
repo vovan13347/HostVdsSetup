@@ -58,7 +58,9 @@ cert: false
 ```
 # PostgreSQL
 ____
-sudo -u postgres psql
+sudo -u postgres psql - вход в postgres
+
+\q - выход
 
 CREATE USER 'username' WITH PASSWORD 'password';
 
