@@ -62,6 +62,8 @@ sudo -u username psql - вход в postgres
 
 \l - Получить список баз данных
 
+\i /PathFile/script1.sql - Запустить файл SQL из оболочки PSQL
+
 \c dbname - Выбрать базу
 
 \dt - список всех таблиц
