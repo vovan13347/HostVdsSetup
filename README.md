@@ -58,7 +58,13 @@ cert: false
 ```
 # PostgreSQL
 ____
-sudo -u postgres psql - вход в postgres
+sudo -u username psql - вход в postgres
+
+\l - Получить список баз данных
+
+\c dbname -Выбрать базу
+
+\dt — список всех таблиц
 
 \q - выход
 
