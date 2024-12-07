@@ -45,7 +45,7 @@ export FLASK_RUN_HOST=0.0.0.0
 
 [:arrow_up:Оглавление](#Оглавление)
 
-# ssh config
+# sshconfig
 ____
 ```
 Host XX.XX.XX.XXX(адрес сервера)
