@@ -2,7 +2,7 @@
 ____
 1. [Настроика HostVdsSetup](#HostVdsSetup)
    
-2. [Настройка ssh config](#sshconfig)
+2. [Настройка ssh config](#ssh config)
    
 3. [Настройка code-server config.yaml](#code-serverconfig.yaml)
    
@@ -49,7 +49,7 @@ export FLASK_RUN_HOST=0.0.0.0
 
 [:arrow_up:Оглавление](#Оглавление)
 
-# sshconfig
+# ssh config
 ____
 ```
 Host XX.XX.XX.XXX(адрес сервера)
