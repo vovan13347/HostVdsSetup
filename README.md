@@ -1,8 +1,12 @@
 ## Оглавление
 ____
 1. [Настроика HostVdsSetup](#HostVdsSetup)
-2. [Настройка sshconfig](#sshconfig)
+   
+2. [Настройка ssh config](#sshconfig)
+   
 3. [Настройка code-server config.yaml](#code-serverconfig.yaml)
+   
+4. [Настройка PostgreSQL](#PostgreSQL)
 
 ____
 # HostVdsSetup
@@ -57,7 +61,10 @@ User newuser
 IdentityFile ~/.ssh/id_rsa
 PreferredAuthentications publickey,password
 ```
-# code-server config.yaml
+[:arrow_up:Оглавление](#Оглавление)
+
+____
+# code-serverconfig.yaml
 ____
 ```
 bind-addr: 0.0.0.0:8080
@@ -65,6 +72,9 @@ auth: password
 password: "пароль"
 cert: false
 ```
+
+[:arrow_up:Оглавление](#Оглавление)
+
 # PostgreSQL
 ____
 sudo -u username psql - вход в postgres
