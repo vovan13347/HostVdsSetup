@@ -1,3 +1,10 @@
+## Оглавление
+____
+1. [Настроика HostVdsSetup](#HostVdsSetup)
+2. [Настройка sshconfig](#sshconfig)
+3. [Настройка code-server config.yaml](#code-serverconfig.yaml)
+
+____
 # HostVdsSetup
 ____
 `ssh root@XX.XX.XX.XXX`(адрес сервера) - подключение к серверу
@@ -35,6 +42,8 @@ sudo netstat -tuln
 flask run --host=0.0.0.0 --port=5000
 
 export FLASK_RUN_HOST=0.0.0.0
+
+[:arrow_up:Оглавление](#Оглавление)
 
 # ssh config
 ____
