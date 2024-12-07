@@ -4,7 +4,7 @@ ____
    
 2. [Настройка ssh config](#ssh_config)
    
-3. [Настройка code-server config.yaml](#code-server_config.yaml)
+3. [Настройка code-server config.yaml](#code-server_config)
    
 4. [Настройка PostgreSQL](#PostgreSQL)
 
@@ -64,7 +64,7 @@ PreferredAuthentications publickey,password
 [:arrow_up:Оглавление](#Оглавление)
 
 ____
-# code-server_config.yaml
+# code-server_config
 ____
 ```
 bind-addr: 0.0.0.0:8080
